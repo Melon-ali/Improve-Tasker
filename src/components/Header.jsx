@@ -1,4 +1,4 @@
-import logo from "../assets/lws-logo-en.svg";
+import taskLogo from '../assets/taskLogo.png'
 
 export default function Header() {
     return (
@@ -9,7 +9,7 @@ export default function Header() {
                     <a href="/">
                         <img
                             className="h-[45px]"
-                            src={logo}
+                            src={taskLogo}
                             alt="Lws"
                         />
                     </a>
